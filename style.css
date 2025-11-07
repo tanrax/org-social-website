@@ -1,0 +1,65 @@
+/* Custom Styles with Bulma */
+:root {
+    --accent-color: #7f5ab6;
+}
+
+/* Font Family */
+body,
+.title,
+.subtitle,
+.button {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Background */
+body {
+    overflow-x: hidden;
+}
+
+/* Custom accent color */
+.has-text-accent {
+    color: var(--accent-color) !important;
+}
+
+.has-background-accent {
+    background-color: var(--accent-color) !important;
+}
+
+.button.is-accent {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+.button.is-accent:hover {
+    background-color: #6d4a9e;
+    border-color: #6d4a9e;
+}
+
+.notification.is-accent {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.card.is-accent {
+    border-top: 4px solid var(--accent-color);
+}
+
+/* Code Box Styling */
+.code-box {
+    padding: 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.code-content pre {
+    margin: 0;
+    border-radius: 0 0 6px 6px;
+    overflow-x: auto;
+}
+
+.code-content pre code {
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}

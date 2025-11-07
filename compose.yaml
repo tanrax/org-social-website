@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:80"
+    container_name: org-social-website

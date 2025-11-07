@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Org Social - Decentralized Social Network</title>
+    <meta name="description" content="A decentralized social network that runs on an Org Mode file over HTTP. Simple, accessible, and you own your data.">
+    <meta name="keywords" content="org-mode, emacs, social network, decentralized, open source, org social">
+    <meta name="author" content="Org Social">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/tanrax/org-social">
+    <meta property="og:title" content="Org Social - Decentralized Social Network">
+    <meta property="og:description" content="A decentralized social network that runs on an Org Mode file over HTTP. Simple, accessible, and you own your data.">
+    <meta property="og:image" content="org-social-logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/tanrax/org-social">
+    <meta property="twitter:title" content="Org Social - Decentralized Social Network">
+    <meta property="twitter:description" content="A decentralized social network that runs on an Org Mode file over HTTP. Simple, accessible, and you own your data.">
+    <meta property="twitter:image" content="org-social-logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="has-background-white-ter">
+    <!-- Hero Section -->
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-5 has-text-centered">
+                        <figure class="image is-inline-block">
+                            <img src="org-social-logo.png" alt="Org Social Logo" style="max-height: 200px; width: auto;">
+                        </figure>
+                    </div>
+                    <div class="column is-7">
+                        <h1 class="title is-1 mb-4">
+                            Org Social
+                        </h1>
+                        <p class="subtitle is-4 mb-5">
+                            A decentralized social network that runs on an Org Mode file over HTTP
+                        </p>
+                        <a href="https://github.com/tanrax/org-social" class="button is-accent is-large is-rounded px-6">
+                            Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Code Example -->
+    <section class="section pt-0 pb-0">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="box code-box">
+                        <div class="notification is-accent mb-0" style="border-radius: 6px 6px 0 0;">
+                            <strong>social.org</strong>
+                        </div>
+                        <div class="content code-content">
+                            <pre class="p-5"><code>#+TITLE: My journal
+#+NICK: YourNick
+#+DESCRIPTION: A brief description about yourself
+#+AVATAR: https://example.com/avatar.jpg
+#+LINK: https://my-awesome-website.com
+#+FOLLOW: myBestFriend https://jane.com/social.org
+
+* Posts
+**
+:PROPERTIES:
+:ID: 2025-04-28T12:00:00+0100
+:END:
+
+This is my first post on Org Social.</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Arrow -->
+                    <div class="has-text-centered my-5 has-text-accent">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 10V38M24 38L14 28M24 38L34 28" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshot -->
+    <section class="section pt-0">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-10">
+                    <figure class="image screenshot-image">
+                        <img src="screenshot.png" alt="Org Social Screenshot" style="border-radius: 8px;">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered mb-6">The values are:</h2>
+
+            <div class="columns is-multiline">
+                <div class="column is-6">
+                    <div class="card is-accent">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <span class="is-size-2">✏️</span>
+                                </div>
+                                <div class="media-content">
+                                    <h3 class="title is-4">Simplicity</h3>
+                                    <p>Org Social is a simple text file that you can edit with any Emacs or text editor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-6">
+                    <div class="card is-accent">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <span class="is-size-2">🌐</span>
+                                </div>
+                                <div class="media-content">
+                                    <h3 class="title is-4">Accessibility</h3>
+                                    <p>The feed can be read by humans and machines.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-6">
+                    <div class="card is-accent">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <span class="is-size-2">🕸️</span>
+                                </div>
+                                <div class="media-content">
+                                    <h3 class="title is-4">Decentralization</h3>
+                                    <p>You are a node in the network. The feed is hosted on a web server and can be accessed by anyone.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-6">
+                    <div class="card is-accent">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <span class="is-size-2">🦄</span>
+                                </div>
+                                <div class="media-content">
+                                    <h3 class="title is-4">Org Philosophy</h3>
+                                    <p>Native Org Mode features are used to enhance the social experience, such as tables, code blocks, and links.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12">
+                    <div class="card is-accent">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <span class="is-size-2">🔐</span>
+                                </div>
+                                <div class="media-content">
+                                    <h3 class="title is-4">Your information belongs to you</h3>
+                                    <p>Your posts and interactions with the community are recorded in your Org file.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="hero is-medium has-background-accent">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <a href="https://github.com/tanrax/org-social" class="button is-white is-large is-rounded px-6">
+                    Join the community!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer has-background-white-ter">
+        <div class="content has-text-centered">
+            <p>
+                Org Social. Open Source Project.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
