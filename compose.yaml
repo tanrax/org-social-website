@@ -5,3 +5,6 @@ services:
     ports:
       - "${PORT:-8080}:80"
     container_name: org-social-website
+    volumes:
+      - ./avatar.png:/usr/share/nginx/html/avatar.png:ro
+      - ./social.org:/usr/share/nginx/html/social.org:ro
