@@ -36,6 +36,30 @@ body {
     border-color: #6d4a9e;
 }
 
+.button.is-apple {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+}
+
+.button.is-apple:hover {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: white;
+}
+
+.button.is-emacs {
+    background-color: #4F2E7C;
+    border-color: #4F2E7C;
+    color: white;
+}
+
+.button.is-emacs:hover {
+    background-color: #3E2362;
+    border-color: #3E2362;
+    color: white;
+}
+
 .notification.is-accent {
     background-color: var(--accent-color);
     color: white;
