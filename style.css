@@ -49,14 +49,14 @@ body {
 }
 
 .button.is-emacs {
-    background-color: #4F2E7C;
-    border-color: #4F2E7C;
+    background-color: #2E2A4D;
+    border-color: #2E2A4D;
     color: white;
 }
 
 .button.is-emacs:hover {
-    background-color: #3E2362;
-    border-color: #3E2362;
+    background-color: #232040;
+    border-color: #232040;
     color: white;
 }
 
